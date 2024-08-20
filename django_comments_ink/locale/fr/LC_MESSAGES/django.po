@@ -30,7 +30,7 @@ msgstr "Ce commentaire a été supprimé."
 
 #: django_comments_ink/forms.py:11
 msgid "Notify me about follow-up comments"
-msgstr "Avertissez-moi des commentaires suivants"
+msgstr "M'avertir par mail des commentaires suivants"
 
 #: django_comments_ink/forms.py:29
 msgid "Name"
@@ -72,13 +72,13 @@ msgstr "Avertir des commentaires suivants"
 #, fuzzy
 #| msgid "new comment posted"
 msgid "comment votes"
-msgstr "nouveau commentaire envoyé"
+msgstr "Nouveau commentaire !"
 
 #: django_comments_ink/models.py:429
 #, fuzzy
 #| msgid "new comment posted"
 msgid "comments votes"
-msgstr "nouveau commentaire envoyé"
+msgstr "Nouveau commentaire !"
 
 #: django_comments_ink/models.py:518 django_comments_ink/models.py:573
 #, fuzzy
@@ -186,7 +186,7 @@ msgstr "Un utilisateur a signalé ce commentaire comme inapproprié."
 #, fuzzy, python-format
 #| msgid "and more reacted with"
 msgid "%(authors)s and more reacted with %(label)s"
-msgstr "et d'autres ont réagi avec"
+msgstr "%(authors)s et d'autres ont réagi avec %(label)s"
 
 #: django_comments_ink/templates/comments/comment_reactions.html:11
 #: django_comments_ink/templates/comments/object_reactions_form.html:15
@@ -196,7 +196,7 @@ msgstr "et d'autres ont réagi avec"
 #: django_comments_ink/templates/comments/themes/feedback_in_header/comment_reactions.html:11
 #, python-format
 msgid "%(authors)s reacted with %(label)s"
-msgstr ""
+msgstr "%(authors)s ont réagi avec %(label)s"
 
 #: django_comments_ink/templates/comments/comment_votes.html:5
 #: django_comments_ink/templates/comments/themes/avatar_in_header/comment_votes.html:6
@@ -772,7 +772,7 @@ msgstr "Confirmation du commentaire envoyé"
 
 #: django_comments_ink/views/commenting.py:156
 msgid "new comment posted"
-msgstr "nouveau commentaire envoyé"
+msgstr "Nouveau commentaire !"
 
 #: django_comments_ink/views/muting.py:25
 msgid "Comment already muted or comment does not exist."
