@@ -195,5 +195,6 @@ class PartialTemplate:
 
         context = self.get_context(context)
         result = loader.render_to_string(template_list, context)
-        dci_cache.set(ckey_cmlist, result, timeout=None)
+        if dci_cache is not None:
+            dci_cache.set(ckey_cmlist, result, timeout=None)
         return result

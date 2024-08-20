@@ -34,6 +34,9 @@ class CommentsParamsMixin:
         else:
             cpage = 1
 
+        if cpage == '':
+            cpage = 1
+
         try:
             self.comments_page = int(cpage) if cpage != "last" else "last"
         except ValueError:
