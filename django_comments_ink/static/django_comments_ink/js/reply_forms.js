@@ -64,8 +64,8 @@ export default class ReplyFormsHandler {
         // If is_active is true, hide the textarea and display the form.
         if (is_active === true) {
             section.classList.add("active");
+            newForm.classList.add("d-flex");
             divta.style.display = "none";
-            newForm.style = "";
             newForm.elements.comment.focus();
         }
     }
